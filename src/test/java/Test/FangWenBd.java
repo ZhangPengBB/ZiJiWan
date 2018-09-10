@@ -17,7 +17,7 @@ public class FangWenBd {
     @Test
     public  void Test1() throws InterruptedException {
         TestFangFa.GetUrl("http://baidu.com");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
     @AfterMethod
     public void Af(){
